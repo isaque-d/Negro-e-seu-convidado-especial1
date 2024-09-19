@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Negro e Seu Convidado Especial</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Estilo Global */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background: linear-gradient(135deg, #a2c2e1, #2c3e50);
+            overflow-x: hidden;
+        }
+
+        header {
+            background: #3498db;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+            border-bottom: 5px solid #2980b9;
+        }
+
+        h1 {
+            font-size: 4em;
+            margin: 0;
+            text-shadow: 2px 2px 4px #000000;
+            animation: fadeInDown 3s ease-in-out;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 2.5em;
+            padding: 15px;
+            color: #fff;
+            text-shadow: 1px 1px 3px #000000;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .section {
+            padding: 50px;
+            margin: 30px auto;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            animation: fadeInUp 3s ease-in-out;
+            max-width: 1200px;
+            overflow: hidden;
+        }
+
+        .section p {
+            font-size: 1.2em;
+            line-height: 1.8;
+            text-align: justify;
+            margin: 20px;
+            color: #555;
+            text-shadow: 1px 1px 3px #ffffff;
+        }
+
+        .section h2 {
+            font-size: 2em;
+            color: #3498db;
+            text-shadow: 1px 1px 3px #ffffff;
+        }
+
+        @keyframes fadeInDown {
+            0% {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        footer {
+            background-color: #3498db;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+            border-top: 2px solid #2980b9;
+        }
+
+        .highlight {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 900px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .highlight h2 {
+            font-size: 2.2em;
+            color: #3498db;
+        }
+
+        .highlight p {
+            font-size: 1.1em;
+            color: #555;
+            line-height: 1.7;
+            text-align: justify;
+        }
+
+        .animated-text {
+            animation: bounceIn 2s ease-in-out;
+        }
+
+        @keyframes bounceIn {
+            0% {
+                opacity: 0;
+                transform: scale(0.3);
+            }
+            50% {
+                opacity: 1;
+                transform: scale(1.1);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Negro e Seu Convidado Especial</h1>
+    </header>
+
+    <section class="section">
+        <div class="highlight">
+            <h2 class="animated-text">Introdução</h2>
+            <p>A história do negro e seu convidado especial é uma rica tapeçaria de culturas, experiências e contribuições significativas para o mundo. Este tema explora a influência dos negros em várias áreas, incluindo esportes, música, arte e literatura, celebrando suas conquistas e o impacto duradouro que tiveram na sociedade global. Através de histórias inspiradoras e análises profundas, podemos apreciar a diversidade e a riqueza que os negros trouxeram para a nossa cultura e a importância de reconhecer e valorizar esses legados.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="highlight">
+            <h2 class="animated-text">A Influência no Esporte</h2>
+            <p>O impacto dos atletas negros no esporte é inegável. Desde os pioneiros que quebraram barreiras até os campeões que redefiniram o que é possível, os atletas negros têm desempenhado papéis fundamentais em diversas modalidades esportivas. A sua contribuição vai além dos troféus e medalhas, abrangendo também a mudança de percepções sociais e a inspiração para futuras gerações. Atletas como Pelé no futebol, Muhammad Ali no boxe e Serena Williams no tênis não apenas dominaram suas disciplinas, mas também usaram suas plataformas para promover igualdade e justiça.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="highlight">
+            <h2 class="animated-text">Contribuições Culturais</h2>
+            <p>Os negros também têm uma profunda influência na cultura global através da música, arte e literatura. Movimentos musicais como o jazz, o blues e o hip-hop têm raízes profundas na experiência negra e têm moldado o panorama musical mundial. Na arte, artistas como Jean-Michel Basquiat e Kehinde Wiley desafiaram normas e ampliaram a percepção da arte moderna. Na literatura, autores como James Baldwin e Chimamanda Ngozi Adichie oferecem perspectivas essenciais e enriquecem o diálogo sobre identidade e cultura.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="highlight">
+            <h2 class="animated-text">História e Legado</h2>
+            <p>A história do negro é marcada por lutas e conquistas, e seu legado é visível em muitas facetas da sociedade contemporânea. Desde a resistência durante o período da escravidão até as vitórias na luta pelos direitos civis, a trajetória dos negros é um testemunho de resiliência e coragem. Esse legado é celebrado em datas como o Mês da História Negra, que destaca as contribuições e realizações dos negros ao longo da história. É fundamental reconhecer e honrar essas histórias para promover uma compreensão mais rica e inclusiva da nossa sociedade.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="highlight">
+            <h2 class="animated-text">Atletas Notáveis</h2>
+            <p>Além dos atletas mencionados anteriormente, há muitos outros que tiveram um impacto significativo em seus respectivos esportes. Aqui estão três exemplos:</p>
+            <ul>
+                <li><strong>Usain Bolt:</strong> O corredor jamaicano é considerado o homem mais rápido do mundo, estabelecendo recordes mundiais em 100m e 200m.</li>
+                <li><strong>LeBron James:</strong> Um dos maiores jogadores de basquete de todos os tempos, LeBron James tem sido uma força dominante na NBA e um defensor dos direitos civis.</li>
+                <li><strong>Simone Biles:</strong> A ginasta americana é uma das atletas mais decoradas da história dos Jogos Olímpicos, destacando-se por suas habilidades excepcionais e seu impacto fora das competições.</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Negro e Seu Convidado Especial. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
